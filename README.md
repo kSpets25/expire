@@ -1,10 +1,10 @@
-# <span style="color: #FF0000;">Expire!</span> - Search, Save, and Track Expiring Foods.
+# <span style="color: #FF0000;">expire!</span> - Search, Save, and Track Expiring Foods.
 
-## About Expire! 
-#### Expire! is an application built to support food pantries by making it easier to monitor perishable food inventory and minimize waste.  Food pantry coordinators, staff, and volunteers can sign in to create and manage their own inventories, quickly search for products by name or barcode, and record expiration dates and quantities.  
+## About expire! 
+#### expire! is an application built to support food pantries by making it easier to monitor perishable food inventory and minimize waste.  Food pantry coordinators, staff, and volunteers can sign in to create and manage their own inventories, quickly search for products by name or barcode, and record expiration dates and quantities.  
 
 
-#### The application organizes saved items into clear inventory lists and automatically identifies foods that are nearing expiration, helping staff plan distribution more effectively.  Expire! improves efficiency, food safety, and overall pantry operations.
+#### The application organizes saved items into clear inventory lists and automatically identifies foods that are nearing expiration, helping staff plan distribution more effectively.  expire! improves efficiency, food safety, and overall pantry operations.
 
 ## Application Features:
 
