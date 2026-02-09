@@ -13,9 +13,9 @@ export default function Header(props) {
           </p>
           <p>
           
-          <Link href="/search-products">Search Products</Link>
-          <Link href="/saved-products">Saved Products</Link>
-          <Link href="/expiring-products">Expiring Products</Link>
+          <Link href="/searchFoods">Search</Link>
+          <Link href="/savedFoods">Saved</Link>
+          <Link href="/expiringFoods">Expiring</Link>
           </p>
           <div className={styles.container}>
             <p>Welcome, {props.username}!</p>
