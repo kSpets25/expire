@@ -1,4 +1,4 @@
-// pages/searchFoods.js
+// pages/SearchFoods.js
 import { useState } from "react";
 import { useRouter } from "next/router";
 
@@ -89,10 +89,10 @@ export default function FoodSearch() {
         return copy;
       });
   
-      alert("Product saved!");
+      alert("Food saved to inventory!");
     } catch (err) {
-      console.error("Error saving product:", err);
-      alert("Error saving product: " + err.message);
+      console.error("Error saving food:", err);
+      alert("Error saving food to inventory: " + err.message);
     }
   };
   

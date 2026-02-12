@@ -10,6 +10,7 @@ const FoodSchema = new mongoose.Schema(
     nutriscore_grade: String,
     nutriments: Object,
     image_small_url: String,
+    quantity: Number,
     expirationDate: Date,
   },
   { timestamps: true }
