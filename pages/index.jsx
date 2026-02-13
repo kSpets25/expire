@@ -58,7 +58,7 @@ export default function Home(props) {
             fontFamily: "Arial, sans-serif",
           }}
         >
-          <h1>Just Eat It!!</h1>
+          <h1>Eat it While it's Fresh!!</h1>
           <p>Search for foods and save them with expiration dates.</p>
           <button
             onClick={() => {
