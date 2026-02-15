@@ -101,6 +101,9 @@ export default function SavedFoods({ foods, user, isLoggedIn }) {
           </div>
         )}
       </main>
+      <footer className={styles.footer}>
+        
+      </footer>
     </div>
   );
 }
