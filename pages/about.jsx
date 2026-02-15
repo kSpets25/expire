@@ -4,6 +4,7 @@ import { withIronSessionSsr } from "iron-session/next";
 import sessionOptions from "../config/session";
 import styles from "../styles/Home.module.css";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import useLogout from "../hooks/useLogout";
 
 export const getServerSideProps = withIronSessionSsr(
@@ -84,9 +85,7 @@ export default function About(props) {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        {/* Footer content */}
-      </footer>
+      <Footer className={styles.footer}/>
     </div>
   );
 }

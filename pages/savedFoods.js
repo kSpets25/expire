@@ -6,6 +6,7 @@ import { withIronSessionSsr } from "iron-session/next";
 import sessionOptions from "../config/session";
 import styles from "../styles/savedFoods.module.css";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import useLogout from "../hooks/useLogout";
 import dbConnect from "../db/connection";
 import Food from "../db/models/foods";
@@ -101,9 +102,7 @@ export default function SavedFoods({ foods, user, isLoggedIn }) {
           </div>
         )}
       </main>
-      <footer className={styles.footer}>
-        
-      </footer>
+      <Footer className={styles.footer}/>
     </div>
   );
 }
