@@ -167,6 +167,7 @@ export default function FoodSearch() {
             {/* Unit */}
             <label>Unit:</label>
             <select className={styles.select}
+              type="string"
               value={product.unit}
               onChange={(e) =>
                 setProducts(prev => prev.map(p => p.code === product.code ? { ...p, unit: e.target.value } : p))

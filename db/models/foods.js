@@ -11,6 +11,7 @@ const FoodSchema = new mongoose.Schema(
     nutriments: Object,
     image_small_url: String,
     quantity: Number,
+    unit: String,
     expirationDate: Date,
   },
   { timestamps: true }
