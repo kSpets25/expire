@@ -1,0 +1,30 @@
+.container {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.expiringGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .expiringCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.savedImage {
+    width: 50%;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+

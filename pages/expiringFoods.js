@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { withIronSessionSsr } from "iron-session/next";
 import sessionOptions from "../config/session";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/expiringFoods.module.css";
 import Header from "../components/header";
 import useLogout from "../hooks/useLogout";
 import { useEffect, useState } from "react";
@@ -89,39 +89,21 @@ export default function ExpiringFoods(props) {
         ) : expiringFoods.length === 0 ? (
           <p>No foods are expiring in the next 14 days.</p>
         ) : (
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-              gap: "1rem",
-              width: "100%",
-              marginTop: "1rem",
-            }}
+          <div className={styles.expiringGrid}
+            
           >
             {expiringFoods.map((product) => {
               const left = daysLeft(product.expirationDate);
               return (
-                <div
+                <div className={styles.expiringCard}
                   key={product._id}
-                  style={{
-                    border: "1px solid #ccc",
-                    borderRadius: "8px",
-                    padding: "1rem",
-                    boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "space-between",
-                  }}
+                  
                 >
                   {product.image_small_url && (
-                    <img
+                    <img className={styles.savedImage}
                       src={product.image_small_url}
                       alt={product.product_name}
-                      style={{
-                        width: "100%",
-                        borderRadius: "4px",
-                        marginBottom: "0.5rem",
-                      }}
+                     
                     />
                   )}
 
